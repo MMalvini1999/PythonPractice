@@ -1,0 +1,147 @@
+#Weight Conversion Practice
+# your_weight = input('What is your weight? ')
+# kg_conversion = float(your_weight) * 0.453592
+# print('Your weight in kilograms is ' + str(kg_conversion))
+
+
+#Down Payment Practice
+# good_credit = False
+# poor_credit = True
+# if good_credit:
+#     print("You have a good credit score")
+#     good_credit_percentage = (1000000 * 0.10)
+#     print("A down payment of ", good_credit_percentage, " is required.")
+#
+# else:
+#     print("You have a poor credit score")
+#     good_credit_percentage = (1000000 * 0.20)
+#     print("A down payment of ", good_credit_percentage, " is required.")
+
+#Name Length Practice
+# name_length = input("Please enter in your name ")
+#
+# if len(name_length) < 3:
+#     print("Your name must be longer than 3 characters.")
+#
+# elif len(name_length) > 10:
+#     print("Your name must be shorter than 10 characters.")
+#
+# else:
+#     print("Hello", name_length)
+
+#Guessing Game Practice
+# secret_number = 9
+# guess_count = 0
+# guess_limit = 3
+# while guess_count < guess_limit:
+#     guess = int(input('Guess: '))
+#     guess_count += 1
+#     if guess == secret_number:
+#        print('You won!')
+#        break
+# else:
+#        print('Sorry, you failed.')
+
+#Car Game Practice
+# command = ""
+# started = False
+# while True:
+#     command = input("> ").lower()
+#     if command == "start":
+#         if started:
+#             print("Car is already started!")
+#         else:
+#             started = True
+#             print("Car started...")
+#     elif command == "stop":
+#         if not started:
+#             print("Car is already stopped!")
+#         else:
+#             started = False
+#             print("Car stopped...")
+#
+#     elif command == "help":
+#         print("""
+# *** start - to start the car
+# *** stop - to stop the car
+# *** quit - to end the game
+#             """)
+#     elif command == "quit":
+#         break
+#     else:
+#         print("Sorry, I don't understand that.")
+
+#For Loop Practice
+# prices = [10, 20, 30, 40, 50, 60]
+# total = 0
+# for price in prices:
+#     total += price
+# print(f"Total: {total}")
+
+#Nested For Loop Practice
+# for x in range(4):
+#     for y in range(3):
+#         print(f'({x}, {y})')
+
+#Nested For Loop Practice 2
+# numbers = [1, 1, 1, 1, 5]
+# for x_count in numbers:
+#     output = ''
+#     for count in range(x_count):
+#         output += 'x'
+#     print(output)
+
+#List Practice
+# numbers = [3, 6, 2, 7, 9, 12]
+# max = numbers[0]
+# for number in numbers:
+#     if number > max:
+#         max = number
+# print(f'Largest number is {max}')
+
+#List Practice 2
+# numbers = [2, 2, 4, 6, 3, 4, 7, 8]
+# uniques = []
+# for number in numbers:
+#     if number not in uniques:
+#         uniques.append(number)
+# print(uniques)
+
+#Dictionaries Practice
+# message = input(">")
+# words = message.split(' ')
+# emojis = {
+#     ":)": "😁",
+#     ":(": "😢"
+# }
+# output = ""
+# for word in words:
+#     output += emojis.get(word, word) + " "
+# print(output)
+
+#Function Practice
+# def emoji_converter(message):
+#     words = message.split(' ')
+#     emojis = {
+#         ":)": "😁",
+#         ":(": "😢"
+#     }
+#     output = ""
+#     for word in words:
+#         output += emojis.get(word, word) + " "
+#     return output
+#
+#
+# message = input(">")
+# print(emoji_converter(message))
+
+#Exceptions
+# try:
+#     age = int(input('Age: '))
+#     income = 20000
+#     risk = income / age
+#     print(age)
+# except ZeroDivisionError:
+#     print('Age cannot be zero.')
+# except ValueError:
+#     print('Invalid value.')
